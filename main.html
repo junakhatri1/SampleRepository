@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>FORM</title>
+</head>
+<body>
+<h1> FORM</h1>
+<form>
+<fieldset>
+	<legend>Personal Details</legend>
+
+First Name: <input type ="text" id="FirstName" name="fname" maxlength="10"><br>
+Last Name: <input type ="text" id="LastName" name="lname" maxlength="10"><br>
+Age: <input type="number" id="Age" name ="ag" min="18" max="60"><br>	
+Contact : <input type="number" id="contact" name="Cnt"><br>
+<input type = "radio" name = "gender" value="male"> Male <br>
+<input type= "radio" name ="gender" value ="female"> Female<br>
+</fieldset>
+<fieldset>
+	<legend>Information</legend>
+	Email: <input type ="Email" name ="email"><br>
+	Password: <input type = "password" name ="pwd"><br>
+</fieldset>
+
+<fieldset>
+<legend>Date and Time</legend>
+Date: <input type="date" name = "date">
+Time:<input type ="time" name="time">
+</fieldset>
+Quantity ordered: <input type="number" name="points" min="5" max="200" step="5" value="10"><br>
+<input list="names" name= "preference">
+<datalist id="names">
+	<option value ="Red">
+	<option value = "green">
+	<option value = "Yellow">
+	<option value = "White">
+
+
+</datalist>
+<input type ="submit"><br>
+
+Comments: <textarea name ="comments" rows ="5" column="20"></textarea><br>
+
+<input type="submit" value="submit">
+</form>
+
+</body>
+
+
+
+
